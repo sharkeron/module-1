@@ -1,0 +1,95 @@
+$Lato: "Lato", sans-serif;
+$Raleway: "Raleway", sans-serif;
+
+header{
+	color: #fff;
+
+	.container-fluid{
+		background: url(../img/header-bg.png) no-repeat;
+		background-size: 100% 100%;
+	}
+
+	.logo{
+		display: inline-block;
+		padding-top: 78px;
+		margin-left: -5px;
+	}
+
+	.nav-menu{
+		margin-top: 28px;
+		display: inline-block;
+		padding-top: 44px;
+
+		ul{
+			text-align: right;
+			list-style: none;
+			margin: 0;
+			margin-right: 64px;
+			padding: 0;
+
+			li{
+				font-family: $Lato;
+				font-size: 14px;
+				line-height: 38px;
+				text-transform: uppercase;
+				font-weight: normal;
+				display: inline-block;
+				margin-right: 49px;
+
+				a{
+					text-decoration: none;
+					color:inherit;
+				}
+			}
+
+			li:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+
+	.head-content{
+
+		.head-title{
+			text-align: center;
+			margin: 0;
+			margin-top: 227px;
+			margin-bottom: 41px;
+			font-family: $Raleway;
+			font-size: 48px;
+			line-height: 60px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		hr{
+			text-align: center;
+			width: 85px;
+		}
+
+		.head-subtitle{
+			margin: 0;
+			margin-top: 37px;
+			margin-bottom: 250px;
+			text-align: center;
+			font-family: $Lato;
+			font-size: 22px;
+			line-height: 30px;
+			font-weight: normal;
+		}
+
+		.circle{
+			margin: 0 auto;
+			width: 92px;
+			height: 92px;
+			border: 3px solid rgba(255, 255, 255,.5);
+			border-radius: 50%;
+			text-align: center;
+			font-size: 3.5em;
+			line-height: 92px;
+			opacity: .3;
+			margin-bottom: 45px;
+		}
+	}
+
+}
